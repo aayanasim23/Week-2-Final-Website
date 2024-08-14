@@ -1,0 +1,61 @@
+div {
+    font-family: San Francisco;
+    color: white;
+    font-size: 25px;
+    padding: 1px;
+
+ }
+ 
+ 
+ nav {
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 10px solid white;
+    border-radius: 20px;
+ }
+ 
+ .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+ 
+ .items:hover {
+    background-color: rgb(73, 71, 71);
+    opacity: 0.5;
+ }
+ 
+ 
+ a {
+    width: 15%;
+    text-align: center;
+    text-decoration: none;
+ }
+ 
+body {
+    background-image: url('https://i.gifer.com/SFFd.gif');
+    background-size: cover;
+}
+
+.description {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #bebebe;
+    margin: 0 200px; /* Adjust margins to align with the navigation bar */
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto;
+    width: 190px;
+}
+#textboarder {
+    border: 5px solid white;
+    border-radius: 17px;
+}
